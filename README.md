@@ -33,5 +33,6 @@ Por temas de permisos y entornos, antes de la ejecucion del setup.sh, es necesar
   FLUSH PRIVILEGES;
   
   EXIT;<br>
+
 **4: Ejecutar setup.sh donde se encuentra***<br>
   ./setup
