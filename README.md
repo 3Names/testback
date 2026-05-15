@@ -8,6 +8,7 @@ Hay 3 branches pero por voto popular al final se hizo todo en main a pesar de la
 Por temas de permisos y entornos, antes de la ejecucion del setup.sh, es necesario llevar a cabo los siguientes pasos previos:<br>
 
 **Pasos Previos**<br>
+
 ***1: Instalar php, extensiones y composer***<br>
   apt install php php-xml php-cli php-mysql php-curl<br>
 
@@ -17,8 +18,10 @@ Por temas de permisos y entornos, antes de la ejecucion del setup.sh, es necesar
   php -r "unlink('composer-setup.php');"<br>
 
   mv composer.phar /usr/local/bin/composer<br>
+
 ***2: Acceder a tu mysql en la terminal***<br>
   mysql -u root -p<br>
+
 ***3: Ejecutar los siguientes comandos***<br>
   
   CREATE DATABASE IF NOT EXISTS mvmood;
